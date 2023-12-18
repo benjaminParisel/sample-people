@@ -17,7 +17,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_zjFiPZ2tEe6oc6e1CbMa7A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_zjFiPp2tEe6oc6e1CbMa7A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_zjFiP52tEe6oc6e1CbMa7A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiQJ2tEe6oc6e1CbMa7A" type="NONE">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiQJ2tEe6oc6e1CbMa7A">
             <targetForm xmi:type="expression:Expression" xmi:id="_Xkp2gJ2vEe6oc6e1CbMa7A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_zjFiQp2tEe6oc6e1CbMa7A">
@@ -36,7 +36,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_fPTqgp2uEe6oc6e1CbMa7A" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiRJ2tEe6oc6e1CbMa7A" type="NONE" url="https://bwdatllpsjaiqsx.form.io/initdata">
+      <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiRJ2tEe6oc6e1CbMa7A" type="URL" url="https://bwdatllpsjaiqsx.form.io/initdata">
         <targetForm xmi:type="expression:Expression" xmi:id="_zjFiRZ2tEe6oc6e1CbMa7A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_zjFiRp2tEe6oc6e1CbMa7A">
