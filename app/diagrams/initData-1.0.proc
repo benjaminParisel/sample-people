@@ -12,13 +12,35 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_zjFiOJ2tEe6oc6e1CbMa7A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_zjFiOZ2tEe6oc6e1CbMa7A" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_zjFiOp2tEe6oc6e1CbMa7A" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_-59yMJ8eEe6KFPc8YasXdg">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_-59yMZ8eEe6KFPc8YasXdg" name="firstname" content="firstname" type="TYPE_VARIABLE">
+              <referencedElements xmi:type="process:Data" xmi:id="__5A0YJ8eEe6KFPc8YasXdg" name="firstname" dataType="_zjFiYZ2tEe6oc6e1CbMa7A"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_-59yMp8eEe6KFPc8YasXdg" name="firstname" content="firstname" type="TYPE_CONTRACT_INPUT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_4opBQJ8iEe6KFPc8YasXdg" name="firstname">
+                <mapping xmi:type="process:ContractInputMapping" xmi:id="_4opBQZ8iEe6KFPc8YasXdg"/>
+              </referencedElements>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_-59yM58eEe6KFPc8YasXdg" type="ASSIGNMENT"/>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_B3J8EJ8fEe6KFPc8YasXdg">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_B3J8EZ8fEe6KFPc8YasXdg" name="lastname" content="lastname" type="TYPE_VARIABLE">
+              <referencedElements xmi:type="process:Data" xmi:id="_CPrw0J8fEe6KFPc8YasXdg" name="lastname" dataType="_zjFiYZ2tEe6oc6e1CbMa7A"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_B3J8Ep8fEe6KFPc8YasXdg" name="lastname" content="lastname" type="TYPE_CONTRACT_INPUT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_DDjdwJ8fEe6KFPc8YasXdg" name="lastname">
+                <mapping xmi:type="process:ContractInputMapping" xmi:id="_DDjdwZ8fEe6KFPc8YasXdg"/>
+              </referencedElements>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_B3J8E58fEe6KFPc8YasXdg" type="ASSIGNMENT"/>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_zjFiO52tEe6oc6e1CbMa7A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_zjFiPJ2tEe6oc6e1CbMa7A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_zjFiPZ2tEe6oc6e1CbMa7A" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_zjFiPp2tEe6oc6e1CbMa7A" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_zjFiP52tEe6oc6e1CbMa7A" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiQJ2tEe6oc6e1CbMa7A">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Xkp2gJ2vEe6oc6e1CbMa7A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+          <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiQJ2tEe6oc6e1CbMa7A" type="URL" url="/bonita/portal/resource/app/simpleContract/userTask/content/">
+            <targetForm xmi:type="expression:Expression" xmi:id="_hl5DMJ21Ee6DyaeJtApOQg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_zjFiQp2tEe6oc6e1CbMa7A">
             <inputs xmi:type="process:ContractInput" xmi:id="_UIwz4J2uEe6oc6e1CbMa7A" name="lastname">
@@ -36,7 +58,13 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_fPTqgp2uEe6oc6e1CbMa7A" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiRJ2tEe6oc6e1CbMa7A" type="URL" url="https://bwdatllpsjaiqsx.form.io/initdata">
+      <data xmi:type="process:Data" xmi:id="_2e9UwJ8eEe6KFPc8YasXdg" name="firstname" dataType="_zjFiYZ2tEe6oc6e1CbMa7A">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_2e9UwZ8eEe6KFPc8YasXdg" content=""/>
+      </data>
+      <data xmi:type="process:Data" xmi:id="_3ct9gJ8eEe6KFPc8YasXdg" name="lastname" dataType="_zjFiYZ2tEe6oc6e1CbMa7A">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_3ct9gZ8eEe6KFPc8YasXdg" content=""/>
+      </data>
+      <formMapping xmi:type="process:FormMapping" xmi:id="_zjFiRJ2tEe6oc6e1CbMa7A" type="URL" url="/bonita/portal/resource/app/simpleContract/instantiate/content/">
         <targetForm xmi:type="expression:Expression" xmi:id="_zjFiRZ2tEe6oc6e1CbMa7A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_zjFiRp2tEe6oc6e1CbMa7A">
